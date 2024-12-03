@@ -1,6 +1,6 @@
 package java_2024_11_24;
 
-public class Student {
+public class Student implements Cloneable{
     private int id;
     private String name;
     private int age;
@@ -65,5 +65,10 @@ public class Student {
 
     public String toString() {
         return "Student{id = " + id + ", name = " + name + ", age = " + age + "}";
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
