@@ -10,7 +10,7 @@ import java.util.regex.*;
 public class ImageCrawler {
 
     public static void main(String[] args) {
-        String webpageUrl = "https://hanyu.baidu.com/zici/s?wd=%E7%8B%97+++"; // 替换为目标网页
+        String webpageUrl = "https://baike.baidu.com/item/%E7%8C%AB/22261?fr=ge_ala"; // 替换为目标网页
         String saveDirectory = "src/Demo4/image"; // 下载图片的保存路径
         new File(saveDirectory).mkdir(); // 创建保存目录
 
